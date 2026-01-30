@@ -1,24 +1,25 @@
-
 .open-sans-normal {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 /* shared style */
-.seconday-bg{
+.seconday-bg {
     background-color: #FFF8F3;
 }
 
-.text-primary{
+.text-primary {
     color: #FD6E0A;
 }
-.dark-2{
-   color: rgba(71, 71, 71, 1); 
+
+.dark-2 {
+    color: rgba(71, 71, 71, 1);
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #FD6F0A;
     padding: 18px 32px;
     color: white;
@@ -28,21 +29,26 @@
     border: none;
 }
 
-.section-title{
+.section-title {
     font-size: 35px;
-    font-weight:bold;
+    font-weight: bold;
     color: rgba(24, 24, 24, 1);
 }
-.section-description{
+
+.section-description {
     font-size: 18px;
     color: #757575;
+}
+
+.text-center {
+    text-align: center;
 }
 
 
 
 
 /* header */
-.header{
+.header {
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
@@ -51,80 +57,172 @@
 
 
 /* Nav style */
-nav{
-    display:flex;
+nav {
+    display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 10px 200px;
 
 }
-.nav-title{
+
+.nav-title {
     font-weight: 800;
     font-size: 45px;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
-    margin-right: 51px;;
+    margin-right: 51px;
+    ;
 }
-nav ul a{
+
+nav ul a {
     text-decoration: none;
     font-size: 20px;
 }
-nav ul{
+
+nav ul {
     display: flex;
-    align-items:center;
+    align-items: center;
 
- }
+}
+
+.Contact {
+    border: 2px solid #ee7e2e;
+    border-radius: 5px;
+    padding: 20px;
+}
 
 
 
 
-  /* Banner styles. */
-  .banner{
+/* Banner styles. */
+.banner {
     display: flex;
     justify-content: space-between;
     margin: 0 10px 0 200px;
-  }
-  .banner-content{
+}
+
+.banner-content {
     width: 585px;
     height: 360px;
-  }
+}
 
-.banner-greetings{
+.banner-greetings {
 
     font-size: 45px;
     font-weight: 600;
 }
-.banner-title{
+
+.banner-title {
     font-weight: bold;
     font-size: 85px;
 }
-.banner-description{
+
+.banner-description {
     font-size: 18px;
 }
-.banner-profole-picture{
+
+.banner-profole-picture {
     max-width: 700px;
     width: 700px;
 }
 
 /* main styles */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
 
 /* about */
-.about{
+.about {
     border-radius: 10px;
     text-align: center;
-    padding: 130px 150px ;
-    margin-top: 130px;
+    padding: 130px 155px;
+    /* margin-top: 120px; */
+    font-size: 18px;
 }
-.item-description{
-    font-weight:600;
+
+.child-about {
+    border: 2px solid black;
+    background-color: #FFFFFF;
+    padding: auto;
+    /* border-radius: 10px; */
 }
-.about-items{
+
+.item-description {
+    font-weight: 600;
+    background-color: #FFFFFF;
+
+}
+
+.about-items {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+
+
+/* what I do  */
+.skil-container {
+    display: flex;
+    gap: 24px;
+    margin-top: 80px;
+}
+
+.skil {
+    background-color: #FFFFFF;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+
+}
+
+.skil-description {}
+
+
+
+
+/* resume styles */
+.resume-column-title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+.edu-exp-title {
+    margin-bottom: 0px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
+.edu-exp-description {
+    color: rgba(117, 117, 117, 1);
+}
+
+.edu-exp-subtitle {
+    font-size: 20px;
+    color: rgba(117, 117, 117, 1);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-download-cv{
+    margin: 100px auto;
 }
