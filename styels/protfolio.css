@@ -176,6 +176,7 @@ main section {
     display: flex;
     justify-content: space-around;
     padding-top: 30px;
+    gap: 30px
 }
 
 
